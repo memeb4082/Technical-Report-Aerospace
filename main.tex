@@ -183,6 +183,7 @@
                 The batteries are regulated to 3.3V via a pair of TPS63060DSCR buck-boost converters, regulating
                 voltage to 5V and 3.3V for the payload system, with an STC3100IQT battery monitor to monitor battery
                 voltage and current.
+                \subsubsection{Battery Monitor}
             \subsection{Radio Modem}
                 The RFD900 radio modem is used for communication between the CubeSAT and the ground station.
                 The modem operates on the 915MHz frequency band, with a maximum output power of 1W, and a range of up to 40km.
@@ -203,11 +204,6 @@
             monitoring battery voltage and current.
             The batteries are connected in parallel to provide redundancy and increase capacity. The PCBs were designed using Altium Designer,
             and each component was integrated using the recommended configuration in the datasheets. 
-            The 
-
-
-            
-            
             The resultant schematic and PCB layout is provided below.
             \begin{figure}[H]
                 \centering
@@ -215,21 +211,25 @@
                 \caption{Power Regulation Schematic}
                 \label{fig:power}
             \end{figure}
-
-
-
-        \section{Communication PCB Design}
-                The communication PCB is designed to interface with the RFD900 radio modem, and the ESP32-S3-Mini microcontroller.
         \section{CDH PCB Design}
-
+            % The communication PCB is designed to interface with the RFD900 radio modem, and the ESP32-S3-Mini microcontroller.
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.4\linewidth]{figures/MC_PINS.png}
-                \caption{ESP32\_S3 Microcontroller Pin Configuration}
+                \caption{ESP32S3 Microcontroller Pin Configuration}
                 \label{fig:mc_pins}
             \end{figure}
-
-            words
+            Using the sample configuration specified in the datasheet \ref{fig:mc_example} \cite{esp32s3mini}, 
+            the ESP32-S3-Mini-1 was integrated into the CDH PCB in order to interact with 
+            the sensors and radio through the I2C and SPI communication protocols.
+            It must be noted that the ESP32-S3-MINI-1 was utilized for cost efficiency and had the keepout zone cut off to accomodate the 
+            specification. However, redesigns were not necessary as the pin configuration is identical to the ESP32-S3-MINI-1U.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.4\linewidth]{figures/ESP32S3_EXAMPLE.png}
+                \caption{ESP32S3 Microcontroller Example Configuration}
+                \label{fig:mc_example}
+            \end{figure}
             \begin{figure}[H]
                 \centering
                 \includegraphics[width=0.4\linewidth, angle=270]{figures/BARO_DS.pdf}
