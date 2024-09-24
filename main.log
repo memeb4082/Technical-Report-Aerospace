@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  24 SEP 2024 22:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  24 SEP 2024 23:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -709,36 +709,48 @@ Package pdftex.def Info: figures/BARO_IMG.pdf  used on input line 177.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
 [5 <./figures/MAG_IMG.png> <./figures/BARO_IMG.pdf>] [6]
 Chapter 2.
-<figures/PWR_SCHM.png, id=165, 1096.095pt x 744.7825pt>
+<figures/PWR_SCHM.png, id=166, 1096.095pt x 744.7825pt>
 File: figures/PWR_SCHM.png Graphic file (type png)
 <use figures/PWR_SCHM.png>
-Package pdftex.def Info: figures/PWR_SCHM.png  used on input line 214.
+Package pdftex.def Info: figures/PWR_SCHM.png  used on input line 210.
 (pdftex.def)             Requested size: 307.2929pt x 208.79906pt.
-<figures/MC_PINS.png, id=166, 554.07pt x 645.41125pt>
+<figures/MC_PINS.png, id=167, 554.07pt x 645.41125pt>
 File: figures/MC_PINS.png Graphic file (type png)
 <use figures/MC_PINS.png>
-Package pdftex.def Info: figures/MC_PINS.png  used on input line 227.
+Package pdftex.def Info: figures/MC_PINS.png  used on input line 218.
 (pdftex.def)             Requested size: 204.85672pt x 238.63101pt.
 [7
 
  <./figures/PWR_SCHM.png>]
-<figures/BARO_DS.pdf, id=173, 597.50786pt x 845.04686pt>
+
+LaTeX Warning: Reference `fig:mc_example' on page 8 undefined on input line 222
+.
+
+
+LaTeX Warning: Citation 'esp32s3mini' on page 8 undefined on input line 222.
+
+<figures/ESP32S3_EXAMPLE.png, id=174, 1559.8275pt x 1136.245pt>
+File: figures/ESP32S3_EXAMPLE.png Graphic file (type png)
+<use figures/ESP32S3_EXAMPLE.png>
+Package pdftex.def Info: figures/ESP32S3_EXAMPLE.png  used on input line 229.
+(pdftex.def)             Requested size: 204.85672pt x 149.2254pt.
+<figures/BARO_DS.pdf, id=175, 597.50786pt x 845.04686pt>
 File: figures/BARO_DS.pdf Graphic file (type pdf)
 <use figures/BARO_DS.pdf>
 Package pdftex.def Info: figures/BARO_DS.pdf  used on input line 235.
 (pdftex.def)             Requested size: 204.85672pt x 289.72337pt.
-<figures/GPS_DS.pdf, id=174, 597.50786pt x 845.04686pt>
+[8 <./figures/MC_PINS.png> <./figures/ESP32S3_EXAMPLE.png>]
+<figures/GPS_DS.pdf, id=183, 597.50786pt x 845.04686pt>
 File: figures/GPS_DS.pdf Graphic file (type pdf)
 <use figures/GPS_DS.pdf>
 Package pdftex.def Info: figures/GPS_DS.pdf  used on input line 243.
 (pdftex.def)             Requested size: 204.85672pt x 289.72337pt.
- [8 <./figures/MC_PINS.png> <./figures/BARO_DS.pdf>]
-<figures/IMU_DS.pdf, id=186, 597.50786pt x 845.04686pt>
+<figures/IMU_DS.pdf, id=184, 597.50786pt x 845.04686pt>
 File: figures/IMU_DS.pdf Graphic file (type pdf)
 <use figures/IMU_DS.pdf>
 Package pdftex.def Info: figures/IMU_DS.pdf  used on input line 251.
 (pdftex.def)             Requested size: 256.07481pt x 362.1639pt.
-
+ [9 <./figures/BARO_DS.pdf> <./figures/GPS_DS.pdf>]
 
 LaTeX Warning: File `figures/MC_DS.png' not found on input line 258.
 
@@ -755,18 +767,18 @@ l.258 ...s[width=0.5\linewidth]{figures/MC_DS.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[9 <./figures/GPS_DS.pdf> <./figures/IMU_DS.pdf>]
-<figures/CDH_SCHM.png, id=201, 1504.6614pt x 984.3174pt>
+<figures/CDH_SCHM.png, id=199, 1504.6614pt x 984.3174pt>
 File: figures/CDH_SCHM.png Graphic file (type png)
 <use figures/CDH_SCHM.png>
 Package pdftex.def Info: figures/CDH_SCHM.png  used on input line 269.
 (pdftex.def)             Requested size: 409.72125pt x 268.02217pt.
-<figures/CDH_CODE.png, id=202, 319.1925pt x 857.2025pt>
+[10 <./figures/IMU_DS.pdf>]
+<figures/CDH_CODE.png, id=211, 319.1925pt x 857.2025pt>
 File: figures/CDH_CODE.png Graphic file (type png)
 <use figures/CDH_CODE.png>
 Package pdftex.def Info: figures/CDH_CODE.png  used on input line 278.
 (pdftex.def)             Requested size: 102.42836pt x 275.06903pt.
- [10 <./figures/CDH_SCHM.png>] [11 <./figures/CDH_CODE.png>]
+ [11 <./figures/CDH_SCHM.png> <./figures/CDH_CODE.png>]
 Chapter 3.
 [12
 
@@ -786,8 +798,17 @@ L3 programming layer <2023-08-29>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1E70FE648A4EA975FF6FDF8ACB08729C;3012.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 1E70FE648A4EA975FF6FDF8ACB08729C;3012
+(rerunfilecheck)             After:  C9AC8CC102BD219A160F7CAF44A6C809;2971.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -798,28 +819,32 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18012 strings out of 476379
- 320250 string characters out of 5793734
+ 18021 strings out of 476379
+ 320513 string characters out of 5793734
  1931791 words of memory out of 5000000
- 39152 multiletter control sequences out of 15000+600000
+ 39159 multiletter control sequences out of 15000+600000
  564039 words of font info for 56 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,9n,81p,677b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/dinalatapattu/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jk
-nappen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022basic/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022ba
-sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (14 pages, 2578748 bytes).
+
+pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
+, replaced by a fixed one
+
+ </Users/dinalatapattu/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022basi
+c/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (14 pages, 2781529 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
