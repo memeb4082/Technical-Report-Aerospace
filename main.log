@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  24 SEP 2024 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  24 SEP 2024 20:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -619,23 +619,20 @@ Chapter 2.
 <figures/CDH_CODE.png, id=141, 319.1925pt x 857.2025pt>
 File: figures/CDH_CODE.png Graphic file (type png)
 <use figures/CDH_CODE.png>
-Package pdftex.def Info: figures/CDH_CODE.png  used on input line 174.
-(pdftex.def)             Requested size: 409.72125pt x 1100.32848pt.
+Package pdftex.def Info: figures/CDH_CODE.png  used on input line 175.
+(pdftex.def)             Requested size: 102.42836pt x 275.06903pt.
 [6
 
-]
-Overfull \vbox (663.05089pt too high) has occurred while \output is active []
-
- [7 <./figures/CDH_CODE.png>]
+ <./figures/CDH_CODE.png>]
 Chapter 3.
-[8
+[7
 
 ]
 Chapter 4.
 
-LaTeX Warning: Empty bibliography on input line 187.
+LaTeX Warning: Empty bibliography on input line 188.
 
-[9
+[8
 
 ] (./main.aux)
  ***********
@@ -658,18 +655,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17879 strings out of 476379
- 317257 string characters out of 5793734
+ 17878 strings out of 476379
+ 317251 string characters out of 5793734
  1931791 words of memory out of 5000000
  39034 multiletter control sequences out of 15000+600000
  563871 words of font info for 55 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,6n,81p,739b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/dinalatapattu/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (10 pages, 373410 bytes).
+Output written on main.pdf (9 pages, 373138 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
