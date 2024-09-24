@@ -1,0 +1,196 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{qmc5883}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d10fbd2a05380ba947f24f437f2cb585}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={QST},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{fullhash}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{fullhashraw}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{bibnamehash}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{authorbibnamehash}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{authornamehash}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{authorfullhash}{d10fbd2a05380ba947f24f437f2cb585}
+      \strng{authorfullhashraw}{d10fbd2a05380ba947f24f437f2cb585}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{QMC5883L Datasheet}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb http://wiki.sunfounder.cc/images/7/72/QMC5883L-Datasheet-1.0.pdf
+      \endverb
+      \verb{url}
+      \verb http://wiki.sunfounder.cc/images/7/72/QMC5883L-Datasheet-1.0.pdf
+      \endverb
+    \endentry
+    \entry{rp2040datasheet}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=03eb7fa9a11a8c6d79113b8a4ace0c93}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Raspberry\bibnamedelima Pi},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{fullhash}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{fullhashraw}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{bibnamehash}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{authorbibnamehash}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{authornamehash}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{authorfullhash}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \strng{authorfullhashraw}{03eb7fa9a11a8c6d79113b8a4ace0c93}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RP2040 Datasheet}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+      \endverb
+    \endentry
+    \entry{bosch2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ecb4e901a9360f3e3ec82e379da0a9d7}{%
+           family={Sensortec},
+           familyi={S\bibinitperiod},
+           given={Bosch},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{fullhash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{fullhashraw}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{bibnamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authorbibnamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authornamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authorfullhash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authorfullhashraw}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BMI270 Data Sheet}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf
+      \endverb
+    \endentry
+    \entry{STC3100}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c38884ab3cf908c2798725960369391b}{%
+           family={STMicroelectronics},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c38884ab3cf908c2798725960369391b}
+      \strng{fullhash}{c38884ab3cf908c2798725960369391b}
+      \strng{fullhashraw}{c38884ab3cf908c2798725960369391b}
+      \strng{bibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorbibnamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authornamehash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorfullhash}{c38884ab3cf908c2798725960369391b}
+      \strng{authorfullhashraw}{c38884ab3cf908c2798725960369391b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Technical Datasheet}
+      \field{title}{STC3100 Datasheet}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.st.com/content/ccc/resource/technical/document/datasheet/cb/7e/b5/82/36/e5/4c/f1/CD00219947.pdf/files/CD00219947.pdf/jcr:content/translations/en.CD00219947.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/content/ccc/resource/technical/document/datasheet/cb/7e/b5/82/36/e5/4c/f1/CD00219947.pdf/files/CD00219947.pdf/jcr:content/translations/en.CD00219947.pdf
+      \endverb
+    \endentry
+    \entry{esp32s3mini}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhashraw}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{authorfullhashraw}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32-S3 Mini-1 and Mini-1U Datasheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{sammdatasheet}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1754e5cb767b09c247d1f51b41d4ce5}{%
+           family={u-blox},
+           familyi={u\bibinithyphendelim b\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{fullhash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{fullhashraw}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{bibnamehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authorbibnamehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authornamehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authorfullhash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authorfullhashraw}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \field{sortinit}{u}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SAM-M10Q Data Sheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://au.mouser.com/datasheet/2/1025/SAM_M10Q_DataSheet_UBX_22013293-3180697.pdf
+      \endverb
+      \verb{url}
+      \verb https://au.mouser.com/datasheet/2/1025/SAM_M10Q_DataSheet_UBX_22013293-3180697.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

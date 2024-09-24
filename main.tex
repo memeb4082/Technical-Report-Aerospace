@@ -5,6 +5,7 @@
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{titlesec}
+\usepackage{amsmath}
 \usepackage{biblatex}[style=ieeetr, sorting=none, backend=biber]
 \usepackage[a4paper, left=15mm, right=15mm, top=15mm, bottom=15mm]{geometry}
 \addbibresource{main.bib}
@@ -77,7 +78,7 @@
                     Given the similarity in functionality, and development support between
                     all three options, the ESP32-S3-Mini-1 has been chosen for its reliability, 
                     prior experience with the team, and lack of impedance issues present in 
-                    options such as the RP2040. Furthermore, its superior performance and efficiency
+                    options such as the RP2040 \cite{rp2040datasheet}. Furthermore, its superior performance and efficiency
                     compared to other options make it a viable candidate for future improvements,
                     and enhancements to the project.
                     \begin{figure}[H]
@@ -114,7 +115,7 @@
                     makes it an ideal candidate for the CubeSAT project \cite{sammdatasheet}
                     \begin{figure}[H]
                         \centering
-                        \includegraphics[width=0.3\linewidth, angle=270]{figures/GPS_IMG.pdf}
+                        \includegraphics[width=0.3\linewidth, angle=290]{figures/GPS_IMG.pdf}
                         \caption{Image of the SAM-M10Q GPS Module}
                         \label{fig:gps_img}
                     \end{figure}
@@ -132,7 +133,7 @@
                     a wide range of motion sensing capabilities, with a $\pm$ 16g accelerometer, and $\pm$ 2000 $\circ$/s gyroscope.
                     Furthermore, its low power consumption of 700$\mu$A during operation, i2C (up to 3.4MHz) and SPI (up to 10MHz) communication
                     interfaces, dual core architecture with a 16KB FIFO buffer for configuration and buffering,
-                    Arduino libraries for easy integration, and low cost of \$7 to \$10 per unit make it an ideal candidate for the CubeSAT project \cite{bmidatasheet}
+                    Arduino libraries for easy integration \cite{bosch2023}, and low cost of \$7 to \$10 per unit make it an ideal candidate for the CubeSAT project \cite{bosch2023}
                     % \begin{figure}[H]
                     %     \centering
                     %     \includegraphics[width=0.2\linewidth]{figures/IMU_IMG.png}
@@ -154,7 +155,7 @@
                     By factoring the above requirements, the QMC5883L magnetometer was chosen for its high accuracy,
                     low power consumption, and compatibility with the ESP32-S3-Mini. The module provides a wide range of magnetic field sensing capabilities,
                     with a $\pm$ 8 gauss range, and 0.2 gauss resolution. Furthermore, its low power consumption of 100$\mu$A during operation, I2C (up to 400kHz) communication interface,
-                    while it lacks SPI support, its small form factor, wide operating temperature range, and low cost of \$2 to \$5 per unit make it an ideal candidate for the CubeSAT project \cite{qmcdatasheet}
+                    while it lacks SPI support, its small form factor, wide operating temperature range \cite{qmc5883}, and low cost of \$2 to \$5 per unit make it an ideal candidate for the CubeSAT project \cite{qmc5883}
                     \begin{figure}[H]
                         \centering
                         \includegraphics[width=0.2\linewidth]{figures/MAG_IMG.png}
@@ -175,21 +176,28 @@
                     the BMP388. However, the BMP388's superior accuracy (50Pa vs 100Pa for the ICP10101),
                     support for a wider range of communication protocols (i2C and SPI vs i2C only for the ICP10101, and 
                     RS485 for the S-THP-01A), and lower cost (\$1.65 for the BMP388 vs \$6.08 for the ICP10101, and \$55.09 for the S-THP-01A)
-                    make it an ideal candidate for the CubeSAT project \cite{bmpdatasheet}
+                    make it an ideal candidate for the CubeSAT project \cite{bosch2023}
                     \begin{figure}[H]
                         \centering
-                        \includegraphics[width=0.2\linewidth, angle=235]{figures/BARO_IMG.pdf}
+                        \includegraphics[width=0.2\linewidth, angle=260]{figures/BARO_IMG.pdf}
                         \caption{Image of the BMP388 Barometer Module}
                         \label{fig:baro_img}
                     \end{figure}
-            \subsection{Power}
-                Power is supplied to the payload system via two 18650 LiPo batteries in parallel.
-                The batteries are regulated to 3.3V via a pair of TPS63060DSCR buck-boost converters, regulating
-                voltage to 5V and 3.3V for the payload system, with an STC3100IQT battery monitor to monitor battery
-                voltage and current.
-                \subsubsection{Battery Monitor}
+            % \subsection{Power}
+            %     Power is supplied to the payload system via two 18650 LiPo batteries in parallel.
+            %     The batteries are regulated to 3.3V via a pair of TPS63060DSCR buck-boost converters, regulating
+            %     voltage to 5V and 3.3V for the payload system, with an STC3100IQT battery monitor to monitor battery
+            %     voltage and current.
+            %     \subsubsection{Battery}
+            %         The batteries are connected in parallel to provide redundancy and increase capacity.
+            %         \begin{figure}[H]
+            %             \centering
+            %             \includegraphics[width=0.2\linewidth]{figures/BATTERY.png}
+            %         \end{figure}
+            %     \subsubsection{Buck-Boost Converter}
+            %     \subsubsection{Battery Monitor}
             \subsection{Radio Modem}
-                The RFD900 radio modem is used for communication between the CubeSAT and the ground station.
+                The RFD900ux STM radio modem is used for communication between the CubeSAT and the ground station.
                 The modem operates on the 915MHz frequency band, with a maximum output power of 1W, and a range of up to 40km.
                 The modem supports serial communication at up to 115200 baud, with a power consumption of 1.5W during transmission,
                 and 0.5W during reception.
@@ -197,7 +205,7 @@
                 support for AES-128 encryption allows for easy integration and secure communication between the CubeSAT and the ground station.
             \subsection{Antenna}
                 The antenna system consists of a pair of dipole antennas, one for the CubeSAT, and one for the ground station.
-                The antennas are tuned to the 915MHz frequency band, with a gain of 2.15dBi, and a VSWR of 1.5:1.
+                The antennas are tuned to the 915MHz frequency band, with a gain of 2.15dB, and a VSWR of 1.5:1.
                 The antennas are connected to the RFD900 radio modem via SMA connectors, providing a reliable and efficient
                 communication link between the CubeSAT and the ground station.
     \chapter{Design Implementation}
@@ -205,7 +213,32 @@
             The power PCB is designed to regulate power from the batteries to the system of PCBs in the CubeSAT.
             The PCB consists of two TPS63060DSCR buck-boost converters, an STC3100IQT battery monitor, and a pair of 18650 LiPo batteries.
             The TPS63060DSCR buck-boost converters regulate voltage to 5V and 3.3V for the payload system, with the STC3100IQT battery monitor
-            monitoring battery voltage and current.
+            monitoring battery voltage and current. The buck-boost converter design follows the recommended configuration in the datasheets
+            for a 3.3V and 5V output, where the voltage divider resistors were selected as follows
+            \begin{figure}[H]
+                \begin{flalign*}
+                    R_1 &= R_2 \left(\frac{V_{\text{OUT}}}{V_{\text{FB}}} - 1 \right) \tag{\text{From datasheet}}\\
+                \end{flalign*}
+                \caption{Voltage Divider Calculation}
+                \label{equ:volt_div}
+            \end{figure}
+            Letting $R_2 = 200\text{k}\Omega$, the voltage divider resistors were calculated as follows\\
+            \begin{minipage}{0.45\linewidth}
+                \begin{flalign*}
+                    \intertext{For 3.3V output}
+                    R_1 &= 200\text{k} \Omega \left(\frac{3.3V}{0.5V} - 1 \right)\\
+                    R_1 &= 200\text{k} \Omega \left(6.6 - 1 \right)\\
+                    \phantom{R_1} &= 1120\text{k}\Omega \approx 1.1\text{M} \Omega
+                \end{flalign*}
+            \end{minipage}
+            \begin{minipage}{0.45\linewidth}
+                \begin{flalign*}
+                    \intertext{For 5V output}
+                    R_1 &= 200\text{k} \Omega \left(\frac{5V}{0.5V} - 1 \right)\\
+                    R_1 &= 200\text{k} \Omega \left(10 - 1 \right)\\
+                    \phantom{R_1}&= 1800\text{k} \Omega = 1.8\text{M} \Omega
+                \end{flalign*}
+            \end{minipage}\\
             The batteries are connected in parallel to provide redundancy and increase capacity. The PCBs were designed using Altium Designer,
             and each component was integrated using the recommended configuration in the datasheets. 
             The resultant schematic and PCB layout is provided below.
@@ -215,63 +248,78 @@
                 \caption{Power Regulation Schematic}
                 \label{fig:power}
             \end{figure}
-        \section{CDH PCB Design}
-            % The communication PCB is designed to interface with the RFD900 radio modem, and the ESP32-S3-Mini microcontroller.
+            The battery monitor provides a voltage and current reading for the batteries, allowing for
+            real-time monitoring of battery health and performance. The configuration follows the recommended
+            configuration in the datasheet \cite{STC3100} (Figure \ref{fig:battery_monitor}).
             \begin{figure}[H]
                 \centering
-                \includegraphics[width=0.4\linewidth]{figures/MC_PINS.png}
-                \caption{ESP32S3 Microcontroller Pin Configuration}
-                \label{fig:mc_pins}
+                \includegraphics[width=0.6\linewidth]{figures/PWR_BM.png}
+                \caption{Battery Monitor Configuration}
+                \label{fig:battery_monitor}
             \end{figure}
-            Using the sample configuration specified in the datasheet \ref{fig:mc_example} \cite{esp32s3mini}, 
-            the ESP32-S3-Mini-1 was integrated into the CDH PCB in order to interact with 
-            the sensors and radio through the I2C and SPI communication protocols.
-            It must be noted that the ESP32-S3-MINI-1 was utilized for cost efficiency and had the keepout zone cut off to accomodate the 
-            specification. However, redesigns were not necessary as the pin configuration is identical to the ESP32-S3-MINI-1U.
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.4\linewidth]{figures/ESP32S3_EXAMPLE.png}
-                \caption{ESP32S3 Microcontroller Example Configuration}
-                \label{fig:mc_example}
-            \end{figure}
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.4\linewidth, angle=270]{figures/BARO_DS.pdf}
-                \caption{Barometer Datasheet Configuration}
-                \label{fig:baro_ds}
-            \end{figure}
+        \section{Communications PCB Design}
+            The communications PCB is designed to interface with the RFD900ux STM radio modem to provide communication
+            between the CubeSAT and the ground station. The PCB consists of an RFD900ux STM radio modem, and
+            an RFDesign Flex1-UX antenna. The combination of the RFD900ux STM radio modem and the RFDesign Flex1-UX antenna
+            provides a reliable and efficient communication link between the CubeSAT and the ground station while 
+            avoiding bottlenecks in data transmission due to their similar frequency bands and the low return loss of the antenna.
+        \section{Command and Data Handling Design}
+            \subsection{PCB Design}
+                % The communication PCB is designed to interface with the RFD900 radio modem, and the ESP32-S3-Mini microcontroller.
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.4\linewidth]{figures/MC_PINS.png}
+                    \caption{ESP32S3 Microcontroller Pin Configuration}
+                    \label{fig:mc_pins}
+                \end{figure}
+                Using the sample configuration specified in the datasheet \ref{fig:mc_example} \cite{esp32s3mini}, 
+                the ESP32-S3-Mini-1 was integrated into the CDH PCB in order to interact with 
+                the sensors and radio through the I2C and SPI communication protocols.
+                It must be noted that the ESP32-S3-MINI-1 was utilized for cost efficiency and had the keepout zone cut off to accomodate the 
+                specification. However, redesigns were not necessary as the pin configuration is identical to the ESP32-S3-MINI-1U.
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.4\linewidth]{figures/ESP32S3_EXAMPLE.png}
+                    \caption{ESP32S3 Microcontroller Example Configuration}
+                    \label{fig:mc_example}
+                \end{figure}
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.4\linewidth, angle=270]{figures/BARO_DS.pdf}
+                    \caption{Barometer Datasheet Configuration}
+                    \label{fig:baro_ds}
+                \end{figure}
 
-            words
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.4\linewidth]{figures/GPS_DS.pdf}
-                \caption{GPS Datasheet Configuration}
-                \label{fig:gps_ds}
-            \end{figure}
+                words
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.4\linewidth]{figures/GPS_DS.pdf}
+                    \caption{GPS Datasheet Configuration}
+                    \label{fig:gps_ds}
+                \end{figure}
 
-            words
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.5\linewidth, angle=270]{figures/IMU_DS.pdf}
-                \caption{IMU Datasheet Configuration}
-                \label{fig:imu_ds}
-            \end{figure}
-            words
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.8\linewidth]{figures/CDH_SCHM.png}
-                \caption{Final CDH Schematic}
-                \label{fig:cdh_schm}
-            \end{figure}
-
-
-        \section{Data Handling}
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.2\linewidth]{figures/CDH_CODE.png}
-                \caption{Data Handling Program Flowchart}
-                \label{fig:cdh}
-            \end{figure}
+                words
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.5\linewidth, angle=270]{figures/IMU_DS.pdf}
+                    \caption{IMU Datasheet Configuration}
+                    \label{fig:imu_ds}
+                \end{figure}
+                words
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.8\linewidth]{figures/CDH_SCHM.png}
+                    \caption{Final CDH Schematic}
+                    \label{fig:cdh_schm}
+                \end{figure}
+            \subsection{Data Handling}
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width=0.2\linewidth]{figures/CDH_CODE.png}
+                    \caption{Data Handling Program Flowchart}
+                    \label{fig:cdh}
+                \end{figure}
+        
     \chapter{Design Verification and Validation}
         \section{Payload Subsystem}
             \subsection{Microcontroller}
