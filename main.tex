@@ -71,11 +71,17 @@
                         \item STM32-F103
                     \end{itemize}
                     Given the similarity in functionality, and development support between
-                    all three options, the ESP32-S3-Mini has been chosen for its reliability, 
+                    all three options, the ESP32-S3-Mini-1 has been chosen for its reliability, 
                     prior experience with the team, and lack of impedance issues present in 
                     options such as the RP2040. Furthermore, its superior performance and efficiency
                     compared to other options make it a viable candidate for future improvements,
                     and enhancements to the project.
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.2\linewidth]{figures/MC_IMG.png}
+                        \caption{Image of the ESP32-S3-Mini-1 Microcontroller}
+                        \label{fig:mc_img}
+                    \end{figure}
                 \subsubsection{GPS Selection}
                     The GPS module serves as the primary source of location data for the
                     CubeSAT, providing accurate positioning information for the payload. 
@@ -102,7 +108,13 @@
                     The module provides a high update rate of 10Hz, and supports multi-band GNSS for
                     improved accuracy and reliability. Furthermore, its low power consumption of 21mA at 3.3V
                     makes it an ideal candidate for the CubeSAT project \cite{sammdatasheet}
-                \subsubsection{IMU Trade Study}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.3\linewidth, angle=10]{figures/GPS_IMG.pdf}
+                        \caption{Image of the SAM-M10Q GPS Module}
+                        \label{fig:gps_img}
+                    \end{figure}
+                \subsubsection{IMU Selection}
                     A low power, high accuracy IMU is essential for the CubeSAT project, providing
                     accurate orientation and motion data for the payload. The selection process shall
                     consider the following requirements
@@ -117,7 +129,13 @@
                     Furthermore, its low power consumption of 700$\mu$A during operation, i2C (up to 3.4MHz) and SPI (up to 10MHz) communication
                     interfaces, dual core architecture with a 16KB FIFO buffer for configuration and buffering,
                     Arduino libraries for easy integration, and low cost of \$7 to \$10 per unit make it an ideal candidate for the CubeSAT project \cite{bmidatasheet}
-                \subsubsection{Magnetometer Trade Study}
+                    % \begin{figure}[H]
+                    %     \centering
+                    %     \includegraphics[width=0.2\linewidth]{figures/IMU_IMG.png}
+                    %     \caption{Image of the BMI270 IMU Module}
+                    %     \label{fig:imu_img}
+                    % \end{figure}
+                \subsubsection{Magnetometer Selection}
                     A space, cost, and energy efficient magnetometer is essential for the CubeSAT project,
                     providing accurate magnetic field data for the payload. The selection process shall consider
                     the following requirements
@@ -133,7 +151,13 @@
                     low power consumption, and compatibility with the ESP32-S3-Mini. The module provides a wide range of magnetic field sensing capabilities,
                     with a $\pm$ 8 gauss range, and 0.2 gauss resolution. Furthermore, its low power consumption of 100$\mu$A during operation, I2C (up to 400kHz) communication interface,
                     while it lacks SPI support, its small form factor, wide operating temperature range, and low cost of \$2 to \$5 per unit make it an ideal candidate for the CubeSAT project \cite{qmcdatasheet}
-                \subsubsection{Barometer Trade Study}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.2\linewidth]{figures/MAG_IMG.png}
+                        \caption{Image of the QMC5883L Magnetometer Module}
+                        \label{fig:mag_img}
+                    \end{figure}
+                \subsubsection{Barometer Selection}
                     A space, cost, and energy efficient barometer is essential for the CubeSAT project,
                     providing accurate pressure data for the payload. The selection process shall consider
                     the following requirements
@@ -148,6 +172,12 @@
                     support for a wider range of communication protocols (i2C and SPI vs i2C only for the ICP10101, and 
                     RS485 for the S-THP-01A), and lower cost (\$1.65 for the BMP388 vs \$6.08 for the ICP10101, and \$55.09 for the S-THP-01A)
                     make it an ideal candidate for the CubeSAT project \cite{bmpdatasheet}
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width=0.2\linewidth, angle=235]{figures/BARO_IMG.pdf}
+                        \caption{Image of the BMP388 Barometer Module}
+                        \label{fig:baro_img}
+                    \end{figure}
             \subsection{Power}
                 Power is supplied to the payload system via two 18650 LiPo batteries in parallel.
                 The batteries are regulated to 3.3V via a pair of TPS63060DSCR buck-boost converters, regulating
@@ -166,9 +196,82 @@
                 The antennas are connected to the RFD900 radio modem via SMA connectors, providing a reliable and efficient
                 communication link between the CubeSAT and the ground station.
     \chapter{Design Implementation}
-        \section{Communication PCB Design}
-        \section{CDH PCB Design}
         \section{Power PCB Design}
+            The power PCB is designed to regulate power from the batteries to the system of PCBs in the CubeSAT.
+            The PCB consists of two TPS63060DSCR buck-boost converters, an STC3100IQT battery monitor, and a pair of 18650 LiPo batteries.
+            The TPS63060DSCR buck-boost converters regulate voltage to 5V and 3.3V for the payload system, with the STC3100IQT battery monitor
+            monitoring battery voltage and current.
+            The batteries are connected in parallel to provide redundancy and increase capacity. The PCBs were designed using Altium Designer,
+            and each component was integrated using the recommended configuration in the datasheets. 
+            The 
+
+
+            
+            
+            The resultant schematic and PCB layout is provided below.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{figures/PWR_SCHM.png}
+                \caption{Power Regulation Schematic}
+                \label{fig:power}
+            \end{figure}
+
+
+
+        \section{Communication PCB Design}
+                The communication PCB is designed to interface with the RFD900 radio modem, and the ESP32-S3-Mini microcontroller.
+        \section{CDH PCB Design}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.4\linewidth]{figures/MC_PINS.png}
+                \caption{ESP32\_S3 Microcontroller Pin Configuration}
+                \label{fig:mc_pins}
+            \end{figure}
+
+            words
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.4\linewidth, angle=270]{figures/BARO_DS.pdf}
+                \caption{Barometer Datasheet Configuration}
+                \label{fig:baro_ds}
+            \end{figure}
+
+            words
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.4\linewidth]{figures/GPS_DS.pdf}
+                \caption{GPS Datasheet Configuration}
+                \label{fig:gps_ds}
+            \end{figure}
+
+            words
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\linewidth, angle=270]{figures/IMU_DS.pdf}
+                \caption{IMU Datasheet Configuration}
+                \label{fig:imu_ds}
+            \end{figure}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\linewidth]{figures/MC_DS.png}
+                \caption{MC Datasheet Configuration}
+                \label{fig:mc_ds}
+            \end{figure}
+    
+
+
+
+            words
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.8\linewidth]{figures/CDH_SCHM.png}
+                \caption{Final CDH Schematic}
+                \label{fig:cdh_schm}
+            \end{figure}
+
+
         \section{Data Handling}
             \begin{figure}[H]
                 \centering
