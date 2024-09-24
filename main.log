@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  24 SEP 2024 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.21)  24 SEP 2024 23:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -266,6 +266,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip84
 )
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip85
+\aftertitleunit=\skip86
+\ttl@plus=\dimen155
+\ttl@minus=\dimen156
+\ttl@toksa=\toks20
+\titlewidth=\dimen157
+\titlewidthlast=\dimen158
+\titlewidthfirst=\dimen159
+)
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
@@ -322,14 +334,14 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorderinternal@0=\count320
 \blx@entrysetcounter=\count321
 \blx@biblioinstance=\count322
-\labelnumberwidth=\skip85
-\labelalphawidth=\skip86
-\biblabelsep=\skip87
-\bibitemsep=\skip88
-\bibnamesep=\skip89
-\bibinitsep=\skip90
-\bibparsep=\skip91
-\bibhang=\skip92
+\labelnumberwidth=\skip87
+\labelalphawidth=\skip88
+\biblabelsep=\skip89
+\bibitemsep=\skip90
+\bibnamesep=\skip91
+\bibinitsep=\skip92
+\bibparsep=\skip93
+\bibhang=\skip94
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language25
@@ -412,20 +424,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count391
 \c@pageref=\count392
 \c@savedpageref=\count393
-\shorthandwidth=\skip93
-\shortjournalwidth=\skip94
-\shortserieswidth=\skip95
-\shorttitlewidth=\skip96
-\shortauthorwidth=\skip97
-\shorteditorwidth=\skip98
-\locallabelnumberwidth=\skip99
-\locallabelalphawidth=\skip100
-\localshorthandwidth=\skip101
-\localshortjournalwidth=\skip102
-\localshortserieswidth=\skip103
-\localshorttitlewidth=\skip104
-\localshortauthorwidth=\skip105
-\localshorteditorwidth=\skip106
+\shorthandwidth=\skip95
+\shortjournalwidth=\skip96
+\shortserieswidth=\skip97
+\shorttitlewidth=\skip98
+\shortauthorwidth=\skip99
+\shorteditorwidth=\skip100
+\locallabelnumberwidth=\skip101
+\locallabelalphawidth=\skip102
+\localshorthandwidth=\skip103
+\localshortjournalwidth=\skip104
+\localshortserieswidth=\skip105
+\localshorttitlewidth=\skip106
+\localshortauthorwidth=\skip107
+\localshorteditorwidth=\skip108
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -497,7 +509,7 @@ Package: expl3 2023-08-29 L3 programming layer (loader)
 ef
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count405
-\l__pdf_internal_box=\box53
+\l__pdf_internal_box=\box54
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-08-29 L3 programming layer (loader) 
@@ -518,15 +530,15 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count406
 \Gm@cntv=\count407
 \c@Gm@tempcnt=\count408
-\Gm@bindingoffset=\dimen155
-\Gm@wd@mp=\dimen156
-\Gm@odd@mp=\dimen157
-\Gm@even@mp=\dimen158
-\Gm@layoutwidth=\dimen159
-\Gm@layoutheight=\dimen160
-\Gm@layouthoffset=\dimen161
-\Gm@layoutvoffset=\dimen162
-\Gm@dimlist=\toks20
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks21
 )
 \@quotelevel=\count409
 \@quotereset=\count410
@@ -534,24 +546,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -560,16 +572,16 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2022basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count411
-\scratchdimen=\dimen163
-\scratchbox=\box54
+\scratchdimen=\dimen168
+\scratchbox=\box55
 \nofMPsegments=\count412
 \nofMParguments=\count413
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count414
-\MPscratchDim=\dimen164
+\MPscratchDim=\dimen169
 \MPnumerator=\count415
 \makeMPintoPDFobject=\count416
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks23
 )
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
 ty
@@ -581,7 +593,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 13.
+Package hyperref Info: Link coloring OFF on input line 17.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -601,8 +613,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -639,11 +651,11 @@ Package biblatex Info: Reference segment=0 on input line 13.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 19.
 [1
 
 {/usr/local/texlive/2022basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -661,133 +673,120 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16     \chapter
+l.20     \chapter
                  {CubeSAT Overview} [1]
 Chapter 1.
-<figures/CUBESAD.png, id=117, 1061.9675pt x 916.42375pt>
+<figures/CUBESAD.png, id=116, 1061.9675pt x 916.42375pt>
 File: figures/CUBESAD.png Graphic file (type png)
 <use figures/CUBESAD.png>
-Package pdftex.def Info: figures/CUBESAD.png  used on input line 22.
+Package pdftex.def Info: figures/CUBESAD.png  used on input line 26.
 (pdftex.def)             Requested size: 409.72125pt x 353.57236pt.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 58.
+
 [2
 
  <./figures/CUBESAD.png>]
-<figures/MC_IMG.png, id=126, 380.42125pt x 311.1625pt>
+<figures/MC_IMG.png, id=125, 380.42125pt x 311.1625pt>
 File: figures/MC_IMG.png Graphic file (type png)
 <use figures/MC_IMG.png>
-Package pdftex.def Info: figures/MC_IMG.png  used on input line 81.
+Package pdftex.def Info: figures/MC_IMG.png  used on input line 85.
 (pdftex.def)             Requested size: 102.42836pt x 83.77759pt.
 
 
-LaTeX Warning: Citation 'sammdatasheet' on page 3 undefined on input line 110.
+LaTeX Warning: Citation 'sammdatasheet' on page 3 undefined on input line 114.
 
-<figures/GPS_IMG.pdf, id=127, 597.50786pt x 845.04686pt>
+<figures/GPS_IMG.pdf, id=126, 597.50786pt x 845.04686pt>
 File: figures/GPS_IMG.pdf Graphic file (type pdf)
 <use figures/GPS_IMG.pdf>
-Package pdftex.def Info: figures/GPS_IMG.pdf  used on input line 113.
+Package pdftex.def Info: figures/GPS_IMG.pdf  used on input line 117.
 (pdftex.def)             Requested size: 153.64644pt x 217.29575pt.
 [3 <./figures/MC_IMG.png>]
 
-LaTeX Warning: Citation 'bmidatasheet' on page 4 undefined on input line 131.
+LaTeX Warning: Citation 'bmidatasheet' on page 4 undefined on input line 135.
 
 
-LaTeX Warning: Citation 'qmcdatasheet' on page 4 undefined on input line 153.
+LaTeX Warning: Citation 'qmcdatasheet' on page 4 undefined on input line 157.
 
-<figures/MAG_IMG.png, id=134, 272.01625pt x 236.885pt>
+<figures/MAG_IMG.png, id=133, 272.01625pt x 236.885pt>
 File: figures/MAG_IMG.png Graphic file (type png)
 <use figures/MAG_IMG.png>
-Package pdftex.def Info: figures/MAG_IMG.png  used on input line 156.
+Package pdftex.def Info: figures/MAG_IMG.png  used on input line 160.
 (pdftex.def)             Requested size: 102.42836pt x 89.20033pt.
-[4 <./figures/GPS_IMG.pdf>]
+[4 <./figures/GPS_IMG.pdf> <./figures/MAG_IMG.png>]
 
-LaTeX Warning: Citation 'bmpdatasheet' on page 5 undefined on input line 174.
+LaTeX Warning: Citation 'bmpdatasheet' on page 5 undefined on input line 178.
 
-<figures/BARO_IMG.pdf, id=147, 597.50786pt x 845.04686pt>
+<figures/BARO_IMG.pdf, id=145, 597.50786pt x 845.04686pt>
 File: figures/BARO_IMG.pdf Graphic file (type pdf)
 <use figures/BARO_IMG.pdf>
-Package pdftex.def Info: figures/BARO_IMG.pdf  used on input line 177.
+Package pdftex.def Info: figures/BARO_IMG.pdf  used on input line 181.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
-[5 <./figures/MAG_IMG.png> <./figures/BARO_IMG.pdf>] [6]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 190.
+
+[5 <./figures/BARO_IMG.pdf>]
 Chapter 2.
-<figures/PWR_SCHM.png, id=166, 1096.095pt x 744.7825pt>
+<figures/PWR_SCHM.png, id=155, 1096.095pt x 744.7825pt>
 File: figures/PWR_SCHM.png Graphic file (type png)
 <use figures/PWR_SCHM.png>
-Package pdftex.def Info: figures/PWR_SCHM.png  used on input line 210.
+Package pdftex.def Info: figures/PWR_SCHM.png  used on input line 214.
 (pdftex.def)             Requested size: 307.2929pt x 208.79906pt.
-<figures/MC_PINS.png, id=167, 554.07pt x 645.41125pt>
+<figures/MC_PINS.png, id=156, 554.07pt x 645.41125pt>
 File: figures/MC_PINS.png Graphic file (type png)
 <use figures/MC_PINS.png>
-Package pdftex.def Info: figures/MC_PINS.png  used on input line 218.
+Package pdftex.def Info: figures/MC_PINS.png  used on input line 222.
 (pdftex.def)             Requested size: 204.85672pt x 238.63101pt.
-[7
 
- <./figures/PWR_SCHM.png>]
+LaTeX Warning: Citation 'esp32s3mini' on page 6 undefined on input line 226.
 
-LaTeX Warning: Reference `fig:mc_example' on page 8 undefined on input line 222
-.
-
-
-LaTeX Warning: Citation 'esp32s3mini' on page 8 undefined on input line 222.
-
-<figures/ESP32S3_EXAMPLE.png, id=174, 1559.8275pt x 1136.245pt>
+<figures/ESP32S3_EXAMPLE.png, id=158, 1559.8275pt x 1136.245pt>
 File: figures/ESP32S3_EXAMPLE.png Graphic file (type png)
 <use figures/ESP32S3_EXAMPLE.png>
-Package pdftex.def Info: figures/ESP32S3_EXAMPLE.png  used on input line 229.
+Package pdftex.def Info: figures/ESP32S3_EXAMPLE.png  used on input line 233.
 (pdftex.def)             Requested size: 204.85672pt x 149.2254pt.
-<figures/BARO_DS.pdf, id=175, 597.50786pt x 845.04686pt>
+[6
+
+ <./figures/PWR_SCHM.png> <./figures/MC_PINS.png>]
+<figures/BARO_DS.pdf, id=170, 597.50786pt x 845.04686pt>
 File: figures/BARO_DS.pdf Graphic file (type pdf)
 <use figures/BARO_DS.pdf>
-Package pdftex.def Info: figures/BARO_DS.pdf  used on input line 235.
+Package pdftex.def Info: figures/BARO_DS.pdf  used on input line 239.
 (pdftex.def)             Requested size: 204.85672pt x 289.72337pt.
-[8 <./figures/MC_PINS.png> <./figures/ESP32S3_EXAMPLE.png>]
-<figures/GPS_DS.pdf, id=183, 597.50786pt x 845.04686pt>
+<figures/GPS_DS.pdf, id=171, 597.50786pt x 845.04686pt>
 File: figures/GPS_DS.pdf Graphic file (type pdf)
 <use figures/GPS_DS.pdf>
-Package pdftex.def Info: figures/GPS_DS.pdf  used on input line 243.
+Package pdftex.def Info: figures/GPS_DS.pdf  used on input line 247.
 (pdftex.def)             Requested size: 204.85672pt x 289.72337pt.
-<figures/IMU_DS.pdf, id=184, 597.50786pt x 845.04686pt>
+ [7 <./figures/ESP32S3_EXAMPLE.png> <./figures/BARO_DS.pdf>]
+<figures/IMU_DS.pdf, id=181, 597.50786pt x 845.04686pt>
 File: figures/IMU_DS.pdf Graphic file (type pdf)
 <use figures/IMU_DS.pdf>
-Package pdftex.def Info: figures/IMU_DS.pdf  used on input line 251.
+Package pdftex.def Info: figures/IMU_DS.pdf  used on input line 255.
 (pdftex.def)             Requested size: 256.07481pt x 362.1639pt.
- [9 <./figures/BARO_DS.pdf> <./figures/GPS_DS.pdf>]
-
-LaTeX Warning: File `figures/MC_DS.png' not found on input line 258.
-
-
-! Package pdftex.def Error: File `figures/MC_DS.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.258 ...s[width=0.5\linewidth]{figures/MC_DS.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<figures/CDH_SCHM.png, id=199, 1504.6614pt x 984.3174pt>
+<figures/CDH_SCHM.png, id=182, 1504.6614pt x 984.3174pt>
 File: figures/CDH_SCHM.png Graphic file (type png)
 <use figures/CDH_SCHM.png>
-Package pdftex.def Info: figures/CDH_SCHM.png  used on input line 269.
+Package pdftex.def Info: figures/CDH_SCHM.png  used on input line 262.
 (pdftex.def)             Requested size: 409.72125pt x 268.02217pt.
-[10 <./figures/IMU_DS.pdf>]
-<figures/CDH_CODE.png, id=211, 319.1925pt x 857.2025pt>
+ [8 <./figures/GPS_DS.pdf> <./figures/IMU_DS.pdf>]
+<figures/CDH_CODE.png, id=197, 319.1925pt x 857.2025pt>
 File: figures/CDH_CODE.png Graphic file (type png)
 <use figures/CDH_CODE.png>
-Package pdftex.def Info: figures/CDH_CODE.png  used on input line 278.
+Package pdftex.def Info: figures/CDH_CODE.png  used on input line 271.
 (pdftex.def)             Requested size: 102.42836pt x 275.06903pt.
- [11 <./figures/CDH_SCHM.png> <./figures/CDH_CODE.png>]
+ [9 <./figures/CDH_SCHM.png> <./figures/CDH_CODE.png>]
 Chapter 3.
-[12
+[10
 
 ]
 Chapter 4.
 
-LaTeX Warning: Empty bibliography on input line 291.
+LaTeX Warning: Empty bibliography on input line 284.
 
-[13
+[11
 
 ] (./main.aux)
  ***********
@@ -801,14 +800,8 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 1E70FE648A4EA975FF6FDF8ACB08729C;3012
-(rerunfilecheck)             After:  C9AC8CC102BD219A160F7CAF44A6C809;2971.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 19229FEF178E279D6F44C81ED0F3E857;2994.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -819,32 +812,27 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18021 strings out of 476379
- 320513 string characters out of 5793734
- 1931791 words of memory out of 5000000
- 39159 multiletter control sequences out of 15000+600000
- 564039 words of font info for 56 fonts, out of 8000000 for 9000
+ 18270 strings out of 476379
+ 323531 string characters out of 5793734
+ 1929791 words of memory out of 5000000
+ 39413 multiletter control sequences out of 15000+600000
+ 563572 words of font info for 54 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,9n,81p,677b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
-, replaced by a fixed one
-
- </Users/dinalatapattu/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022basic/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022basi
-c/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (14 pages, 2781529 bytes).
+ </Users/dinalatapattu/Library/texlive/2022basic/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/tcrm1000.600pk></usr/local/texlive/2022basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022basic/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022basic/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022basic/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (12 pages, 2768481 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

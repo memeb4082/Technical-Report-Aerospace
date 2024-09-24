@@ -4,9 +4,13 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{hyperref}
+\usepackage{titlesec}
 \usepackage{biblatex}[style=ieeetr, sorting=none, backend=biber]
 \usepackage[a4paper, left=15mm, right=15mm, top=15mm, bottom=15mm]{geometry}
 \addbibresource{main.bib}
+\titleformat{\chapter}[display]
+  {\normalfont\LARGE\bfseries}{}{0pt}{\LARGE}
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
 \author{QUT Aerospace Society}
 \title{Technical Report: CubeSAT}
 \setcounter{tocdepth}{3}
@@ -110,7 +114,7 @@
                     makes it an ideal candidate for the CubeSAT project \cite{sammdatasheet}
                     \begin{figure}[H]
                         \centering
-                        \includegraphics[width=0.3\linewidth, angle=10]{figures/GPS_IMG.pdf}
+                        \includegraphics[width=0.3\linewidth, angle=270]{figures/GPS_IMG.pdf}
                         \caption{Image of the SAM-M10Q GPS Module}
                         \label{fig:gps_img}
                     \end{figure}
@@ -252,17 +256,6 @@
                 \caption{IMU Datasheet Configuration}
                 \label{fig:imu_ds}
             \end{figure}
-
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=0.5\linewidth]{figures/MC_DS.png}
-                \caption{MC Datasheet Configuration}
-                \label{fig:mc_ds}
-            \end{figure}
-    
-
-
-
             words
             \begin{figure}[H]
                 \centering
